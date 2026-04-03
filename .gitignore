@@ -1,0 +1,35 @@
+# R specific
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Environment / system
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Output artifacts (generated files)
+outputs/plots/*
+outputs/tables/*
+outputs/reports/*
+
+# Keep folder structure but not files
+!outputs/plots/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/reports/.gitkeep
+
+# Processed data (reproducible, should be regenerated)
+data/processed/*
+!data/processed/.gitkeep
+
+# Large raw data (optional — uncomment if needed)
+# data/raw/*.csv
+
+# IDEs
+.vscode/
+.idea/
